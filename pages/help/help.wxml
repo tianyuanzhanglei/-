@@ -1,0 +1,70 @@
+<view class="title">如何使用小程序?</view>
+<view>
+  <view>
+    <view class='circular'></view>
+    <view class='identity'>贫困生</view>
+  </view>
+  <view>
+    <view class='grade'>1st</view>
+    <view class='content'>经过学校认证后，输入账号密码登录</view>
+  </view>
+  <view>
+    <view class='grade'>2st</view>
+    <view class='content'>核对本人信息</view>
+  </view>
+  <view>
+    <view class='grade'>3st</view>
+    <view class='content'>绑定微信更安全</view>
+  </view>
+  <view>
+    <view class='grade'>4st</view>
+    <view class='content'>选择岗位并点击确认</view>
+  </view>
+  <view>
+    <view class='grade'>5st</view>
+    <view class='content'>等待管理员审核</view>
+  </view>
+  <view>
+    <view class='grade'>6st</view>
+    <view class='content'>审核通过即报名成功</view>
+  </view>
+</view>
+
+
+<view>
+  <view>
+    <view class='circular'></view>
+    <view class='identity'>班级负责人</view>
+  </view>
+  <view>
+    <view class='grade'>1st</view>
+    <view class='content'>经过学校认证后，输入账号密码登录</view>
+  </view>
+  <view>
+    <view class='grade'>2st</view>
+    <view class='content'>认定本班贫困生</view>
+  </view>
+</view>
+
+<view>
+  <view>
+    <view class='circular'></view>
+    <view class='identity'>管理员</view>
+  </view>
+  <view>
+    <view class='grade'>1st</view>
+    <view class='content'>用已设置的账号和密码进行登录</view>
+  </view>
+  <view>
+    <view class='grade'>2st</view>
+    <view class='content'>认定班级负责人</view>
+  </view>
+  <view>
+    <view class='grade'>3st</view>
+    <view class='content'>上岗申请情况显示</view>
+  </view>
+  <view>
+    <view class='grade'>4st</view>
+    <view class='content'>批准上岗申请</view>
+  </view>
+</view>

@@ -1,0 +1,9 @@
+<view class="frequency_box">{{experience.length}}</view>
+
+<label wx:for='{{experience}}' wx:key="true">
+  <view class='details_list'>
+    <view class='details_key'></view>
+    <view class='details_time'>{{item.date}}</view>
+    <view class='details_post'>{{item.post}}</view>
+  </view>
+</label>

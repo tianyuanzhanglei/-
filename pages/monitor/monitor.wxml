@@ -1,0 +1,25 @@
+
+
+<view class='title'>
+  <view class='title_number'>账号</view>
+  <view class='title_password'>密码</view>
+  <view class='title_operation' bindtap='build'>新建</view>
+</view>
+
+<label wx:for='{{monitor}}' wx:key="true" wx:for-index="index"> 
+  <view class='content'>
+    <view class='number'>{{item.number}}</view>
+    <view class='password'  bindlongtap='copy' data-index='{{index}}'>{{item.password}}</view>
+    <view class='delete' bindtap='delete_monitor' data-index='{{index}}'>删除</view>
+  </view>
+</label>
+
+<view class='page' hidden='{{show}}'></view>
+
+
+<view class='build_box' hidden='{{show}}'>
+  <view class='build_title'>班级负责人</view>
+  <input class='build_input'placeholder='请输入班级' bindinput='input_num'></input>
+  <button class='btn' bindtap='cancel'>取消</button>
+  <button class='btn' bindtap='establish'>确认</button>
+</view>

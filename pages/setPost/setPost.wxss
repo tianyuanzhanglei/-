@@ -1,0 +1,43 @@
+.title{
+  height: 100rpx;
+  line-height: 100rpx;
+  background: #eee;
+  padding-left: 50rpx;
+}
+.box{
+  position: relative;
+  height: 100rpx;
+  margin: 50rpx 0;
+}
+.post{
+  position: absolute;
+  height: 100rpx;
+  line-height: 100rpx;
+  width: 350rpx;
+  padding-left: 50rpx;
+  /* background: red; */
+}
+.num{
+  /* background: red; */
+  position: absolute;
+  left: 500rpx;
+  height: 100rpx;
+  width: 200rpx;
+  line-height: 100rpx;
+}
+.num_input{
+  text-align: center;
+  height: 100rpx;
+  width: 200rpx;
+  line-height: 100rpx;
+  border:1rpx solid #999;
+  border-radius: 20rpx;
+}
+.picker{
+  height: 100rpx;
+  width: 200rpx;
+}
+.btn{
+  background: #F76968;
+  margin-bottom: 50rpx;
+}

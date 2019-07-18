@@ -1,0 +1,30 @@
+.title{
+  margin: 50rpx;
+  font-size: 45rpx;
+}
+.circular{
+  display: inline-block;
+  width: 20rpx;
+  height: 20rpx;
+  background: #333;
+  border-radius: 50%;
+  margin: 0 20rpx 0 50rpx;
+}
+.identity{
+  display: inline-block;
+  width: 500rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 42rpx;
+}
+.grade{
+  display: inline-block;
+  margin: 0 20rpx 0 50rpx;
+  color: #666;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.content{
+  display: inline-block;
+  color: #666;
+}

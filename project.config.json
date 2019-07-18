@@ -1,0 +1,189 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"checkInvalidKey": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.6.5",
+	"appid": "wx537ebb360955aaa5",
+	"projectname": "%E5%8B%A4%E5%B7%A5%E5%8A%A9%E5%AD%A6%E5%B0%8F%E7%A8%8B%E5%BA%8F",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 21,
+			"list": [
+				{
+					"id": -1,
+					"name": "login",
+					"pathName": "pages/login/login",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "stu_index",
+					"pathName": "pages/stu_index/stu_index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "admin",
+					"pathName": "pages/admin_index/admin_index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "people_info",
+					"pathName": "pages/people_info/people_info",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "admin_my",
+					"pathName": "pages/admin_people/admin_people",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "addpeople",
+					"pathName": "pages/addPeople/addPeople",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "querypeople",
+					"pathName": "pages/queryPeople/queryPeople",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "update",
+					"pathName": "pages/updatePeople/updatePeople",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "experience",
+					"pathName": "pages/experience/experience",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "singUp",
+					"pathName": "pages/singUp/singUp",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "setpost",
+					"pathName": "pages/setPost/setPost",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "details",
+					"pathName": "pages/details/details",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "monitor",
+					"pathName": "pages/monitor/monitor",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "bind_stu",
+					"pathName": "pages/binding_stu/binding_stu",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "export_data",
+					"pathName": "pages/export_data/export_data",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "updateById",
+					"pathName": "pages/monitor_index/monitor_index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "stuList",
+					"pathName": "pages/stuList/stuList",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "notice",
+					"pathName": "pages/notice/notice",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "change_password_stu",
+					"pathName": "pages/change_password_stu/change_password_stu",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "project",
+					"pathName": "pages/project/project",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "post",
+					"pathName": "pages/post/post",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "help",
+					"pathName": "pages/help/help",
+					"scene": null
+				}
+			]
+		}
+	}
+}

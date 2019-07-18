@@ -1,0 +1,3 @@
+<input class="number" placeholder="学号/账号"  bindinput='getNumber'></input>
+<input class="password" placeholder="登录密码" password='true' bindinput='getPassword'></input>
+<button class='login' bindtap='login_verification'>登录</button>

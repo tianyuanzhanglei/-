@@ -1,0 +1,97 @@
+
+.title{
+  height: 100rpx;
+  line-height: 100rpx;
+  border-bottom: 1rpx solid #ddd;
+}
+.content{
+  height: 100rpx;
+  line-height: 100rpx;
+  position: relative;
+  /* background: yellow; */
+}
+.title_number{
+  display: inline-block;
+  width: 300rpx;
+  text-align: center;
+}
+.title_password{
+  display: inline-block;
+  width: 250rpx;
+  text-align: center;
+}
+.title_operation{
+  display: inline-block;
+  width: 200rpx;
+  text-align: center;
+}
+.number{
+  position: absolute;
+  top: 0;
+  display: inline-block;
+  width: 300rpx;
+  /* background: green; */
+  text-align: center;
+}
+
+.password{
+  position: absolute;
+  left: 300rpx;
+  display: inline-block;
+  width: 250rpx;
+  text-align: center;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  /* background: red */
+}
+
+.delete{
+  position: absolute;
+  top: 15rpx;
+  right: 30rpx;
+  width: 140rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  text-align: center;
+  background: #F76968;
+  color: #fff;
+}
+
+.page{
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: #ddd;
+  opacity: 0.6;
+}
+
+
+.build_box{
+  position: fixed;
+  top: 400rpx;
+  left: 125rpx;
+  width: 500rpx;
+  height: 400rpx;
+  background: #F76968;
+  border-top-left-radius: 30rpx;
+  border-top-right-radius: 30rpx;
+}
+.build_title{
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+}
+.build_input{
+  height: 100rpx;
+  line-height: 100rpx;
+  border: 1rpx solid #ccc;
+  padding: 0 30rpx;
+}
+.btn{
+  margin-top: 110rpx;
+  display: inline-block;
+  width: 250rpx;
+  border-radius: 0;
+}

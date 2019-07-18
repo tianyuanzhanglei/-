@@ -1,0 +1,51 @@
+<view class='title'>岗位设置</view>
+<view class='box'>
+    <view class='post'>校园卫生队</view>
+    <view class='num'>
+      <input class='num_input' placeholder='人数' bindinput="input_one" value='{{post.one}}'></input>
+    </view>
+</view>
+
+<view class='box'>
+    <view class='post'>教学楼服务队</view>
+    <view class='num'>
+      <input class='num_input' placeholder='人数' bindinput="input_two" value='{{post.two}}'></input>
+    </view>
+</view>
+
+<view class='box'>
+    <view class='post'>校园保洁队</view>
+    <view class='num'>
+      <input class='num_input' placeholder='人数' bindinput="input_three" value='{{post.three}}'></input>
+    </view>
+</view>
+
+<view class='box'>
+    <view class='post'>龙山美化队</view>
+    <view class='num'>
+      <input class='num_input' placeholder='人数' bindinput="input_four" value='{{post.four}}'></input>
+    </view>
+</view>
+
+<view class='title'>月份选择</view>
+
+<view class='box'>
+    <view class='post'>上岗月份</view>
+    <view class='num'>
+      <picker mode="date" fields="month" value="{{post.date}}" start="2019-01" end="2050-01" bindchange="bindDateChange">
+        <view class="picker">{{post.date}}</view>
+      </picker>
+    </view>
+</view>
+
+
+<view class='title'>开始报名</view>
+
+<view class='box'>
+    <view class='post'>报名通道</view>
+    <view class='num'>
+      <switch checked='{{post.start}}' bindchange='bindStart'></switch>
+    </view>
+</view>
+
+<button class='btn' bindtap='btn'>提交</button>

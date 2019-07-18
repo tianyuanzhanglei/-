@@ -1,0 +1,17 @@
+<view class='title'>
+  <view class='stuId'>学号</view>
+  <view class='name'>姓名</view>
+  <view class='frequency'>次数</view>
+  <view class='operation'>操作</view>
+</view>
+
+<label wx:for='{{stu}}' wx:key="true" wx:for-index="index">
+  <view class='content'>
+    <view class='stuId'>{{item.stuId}}</view>
+    <view class='name'>{{item.name}}</view>
+    <view class='frequency'>{{item.frequency}}</view>
+    <view class='operation'>
+      <button class='btn' bindtap='btn' data-stuIndex='{{index}}'>移除</button>
+    </view>
+  </view>
+</label>

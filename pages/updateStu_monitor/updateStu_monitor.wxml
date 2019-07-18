@@ -1,0 +1,74 @@
+<view class='img'>
+  <view class='img_title'>照片</view>
+  <view class='img_head' bindtap='getImg'>
+    <image class='img_photo' src='{{stu.img}}'></image>
+  </view>
+</view>
+<view class='infor'>
+  <view class='infor_left'>
+    <view class='infor_title'>姓名</view>
+    <view class='infor_data'>
+        <input class='input' placeholder='请输入姓名' bindinput='getName' 
+          value='{{stu.name}}'></input>
+    </view>
+  </view>
+  <view class='infor_right'>
+    <view class='infor_title'>性别</view>
+    <view class='infor_data'>
+        <input class='input' placeholder='请输入性别' bindinput='getSex' 
+          value='{{stu.sex}}'></input>
+    </view>
+  </view>
+</view>
+<view class='infor'>
+  <view class='infor_left'>
+    <view class='infor_title'>班级</view>
+    <view class='infor_data'>
+        <input class='input' placeholder='请输入班级' bindinput='getClassName' 
+          value='{{stu.className}}'  disabled='true'></input>
+    </view>
+  </view>
+  <view class='infor_right'>
+    <view class='infor_title'>学号</view>
+    <view class='infor_data'>
+        <input class='input' placeholder='请输入学号' type='number' bindinput='getStuId' 
+          value='{{stu.stuId}}'></input>
+    </view>
+  </view>
+</view>
+<view class='infor'>
+  <view class='infor_left_title'>宿舍号</view>
+  <view class='infor_right_data'>
+      <input class='input' placeholder='请输入宿舍号' type='number' bindinput='getDormitoryId' 
+        value='{{stu.dormitoryId}}'></input>
+  </view>  
+</view>
+<view class='infor'>
+  <view class='infor_left_title'>联系电话</view>
+  <view class='infor_right_data'>
+      <input class='input' placeholder='请输入手机号' type='number' bindinput='getTel' 
+        value='{{stu.tel}}'></input>
+  </view>  
+</view>
+<view class='infor'>
+  <view class='infor_left_title'>贫困等级</view>
+  <view class='infor_right_data'>
+    <input class='input' placeholder='请输入贫困等级' bindinput='getGrade' value='{{stu.grade}}'></input>
+  </view>  
+</view>
+<view class='infor'>
+  <view class='infor_left_title'>本人工行卡</view>
+  <view class='infor_right_data'>
+    <input class='input' placeholder='请输入工行卡号' type='number' bindinput='getGardNumber' 
+      value='{{stu.gardNumber}}'></input>
+  </view>  
+</view>
+<view class='infor'>
+  <view class='infor_left_title'>班级负责人</view>
+  <view class='infor_right_data'>
+    <input class='input' placeholder='请输入班级负责人姓名' type='number' bindinput='getMonitor'
+      value='{{stu.monitor}}'></input>
+  </view>  
+</view>
+
+<button class='btn_input' bindtap='update_stu'>更新信息</button>

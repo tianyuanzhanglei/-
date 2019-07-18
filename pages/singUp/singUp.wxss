@@ -1,0 +1,79 @@
+.aggregate{
+  position: relative;
+  height: 700rpx;
+}
+.title{
+  height: 100rpx;
+  padding-left: 50rpx;
+  line-height: 100rpx;
+  font-size: 40rpx;
+  background: #eee;
+}
+.box{
+  display: inline-block;
+  height: 200rpx;
+  width:200rpx;
+  border-radius: 50%;
+}
+.address{
+  height: 100rpx;
+  line-height: 150rpx;
+  font-size: 45rpx;
+  text-align: center;
+}
+.team{
+  height: 100rpx;
+  font-size: 35rpx;
+  text-align: center;
+}
+.hygiene{
+  position: absolute;
+  left: 100rpx;
+  top: 150rpx;
+}
+.service{
+  position: absolute;
+  right: 100rpx;
+  top: 150rpx;
+}
+.clean{
+  position: absolute;
+  top: 400rpx;
+  left: 100rpx;
+}
+.beautify{
+  position: absolute;
+  top: 400rpx;
+  right: 100rpx;
+}
+.blue{
+  background:#8BC34A;
+}
+.pink{
+  background: #F76968
+}
+.dispensing_box{
+  height: 100rpx;
+  background: #eee;
+}
+.dispensing{
+  display: inline-block;
+  width: 500rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  padding-left: 50rpx;
+}
+.switch{
+  display: inline-block;
+  height: 100rpx;
+  line-height: 100rpx;
+  width: 200rpx;
+}
+
+.btn_apply{
+  margin: 50rpx 0;
+  height: 100rpx;
+  width: 100%;
+  background: #F76968;
+  color: #fff;
+}

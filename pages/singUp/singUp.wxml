@@ -1,0 +1,59 @@
+
+
+<view class='aggregate'>
+  <view class='title'>选择第一志愿</view>
+
+  <view>
+    <view class="box hygiene {{first=='校园卫生队' ? 'pink' : 'blue'}}" bindtap='select_first_post'
+          data-post='校园卫生队'> 
+      <view class='address'>校园</view>
+      <view class='team'>卫生队</view>
+    </view>
+    <view class="box service {{first=='教学楼服务队' ? 'pink' : 'blue'}}" bindtap='select_first_post'
+          data-post='教学楼服务队'>
+      <view class='address'>教学楼</view>
+      <view class='team'>服务队</view>
+    </view>
+    <view class="box clean {{first=='校园保洁队' ? 'pink':'blue'}}" bindtap='select_first_post' 
+          data-post='校园保洁队'>
+      <view class='address'>校园</view>
+      <view class='team'>保洁队</view>
+    </view>
+    <view class="box beautify {{first=='龙山美化队' ? 'pink':'blue'}}" bindtap='select_first_post'
+          data-post='龙山美化队'>
+      <view class='address'>龙山</view>
+      <view class='team'>美化队</view>
+    </view>
+  </view>
+</view>
+
+
+<view class='aggregate'>
+  <view class='title'>选择第二志愿</view>
+  <view>
+    <view class="box hygiene {{second=='one'?'pink':'blue'}}" bindtap='select_second_post' data-post='one'> 
+      <view class='address'>校园</view>
+      <view class='team'>卫生队</view>
+    </view>
+    <view class="box service {{second=='two'?'pink':'blue'}}" bindtap='select_second_post' data-post='two'>
+      <view class='address'>教学楼</view>
+      <view class='team'>服务队</view>
+    </view>
+    <view class="box clean {{second=='three'?'pink':'blue'}}" bindtap='select_second_post' data-post='three'>
+      <view class='address'>校园</view>
+      <view class='team'>保洁队</view>
+    </view>
+    <view class="box beautify {{second=='four'?'pink':'blue'}}" bindtap='select_second_post' data-post='four'>
+      <view class='address'>龙山</view>
+      <view class='team'>美化队</view>
+    </view>
+  </view>
+</view>
+
+
+<view class='dispensing_box'>
+  <view class='dispensing'>{{dispensing?"服从调剂":"不服从调剂"}}</view>
+  <switch class='switch' checked="{{dispensing}}" bindchange='isDispensing'></switch>
+</view>
+
+<button class='btn_apply' bindtap='btn_apply'>提交申请</button>

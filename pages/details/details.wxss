@@ -1,0 +1,50 @@
+.title{
+  height: 100rpx;
+  line-height: 100rpx;
+  /* background: red; */
+  border-bottom: 1rpx solid #eee;
+}
+.content{
+  position: relative;
+  height: 100rpx;
+  line-height: 100rpx;
+  color: #333;
+  font-weight: 400;
+  /* background: red; */
+}
+.stuId{
+  display: inline-block;
+  width: 250rpx;
+  text-align: center;
+    /* background: blue; */
+}
+.name{
+  display: inline-block;
+  width: 200rpx;
+  text-align: center;
+   /* background: green; */
+}
+.frequency{
+  display: inline-block;
+  width: 100rpx;
+  text-align: center;
+  /* background: yellow; */
+}
+.operation{
+  display: inline-block;
+  width: 200rpx;
+  text-align: center;
+  
+  /* background: blue; */
+}
+.btn{
+  position: absolute;
+  top: 15rpx;
+  right: 30rpx;
+  display: inline-block;
+  height: 70rpx;
+  width: 140rpx;
+  line-height: 70rpx;
+  background-color: #F76968;
+  color: #fff;
+}

@@ -1,0 +1,4 @@
+<span 
+    class="iconfont {{ type ? 'icon-' + type : '' }}" 
+    style="font-size:{{size}}px;color:{{color}}">
+</span>

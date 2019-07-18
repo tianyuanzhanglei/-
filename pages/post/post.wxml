@@ -1,0 +1,50 @@
+
+<view class='box'>
+  <view class='post blue'>
+    <view class='top'>校园</view>
+    <view class='bottom'>卫生队</view>
+  </view>
+  <view class='post_details'>
+    <view>主要工作:<p>全校道路的清洁工作</p></view>
+    <view>工作时间:<p>每天6:10分上岗</p></view>
+    <view>工作时长:<p>1小时</p></view>
+  </view>
+</view>
+
+<view class='box'>
+  <view class='post green'>
+    <view class='top'>校园</view>
+    <view class='bottom'>保洁队</view>
+  </view>
+  <view class='post_details'>
+    <view>主要工作:<p>全校公共区域的保洁工作</p></view>
+    <view>工作时间:<p>课间休息时间</p></view>
+    <view>工作时长:<p>每天上下午各两班岗</p></view>
+  </view>
+</view>
+
+
+<view class='box'>
+  <view class='post orange'>
+    <view class='top'>教学楼</view>
+    <view class='bottom'>服务队</view>
+  </view>
+  <view class='post_details'>
+    <view>主要工作:<p>全校教学楼、部分实验室及图书馆的卫生保洁</p></view>
+    <view>工作时间:<p>午休及晚课结束后</p></view>
+    <view>工作时长:<p>一小时以上</p></view>
+  </view>
+</view>
+
+
+<view class='box'>
+  <view class='post yellow'>
+    <view class='top'>龙山</view>
+    <view class='bottom'>美化队</view>
+  </view>
+  <view class='post_details'>
+    <view>主要工作:<p>龙山的绿化、保洁</p></view>
+    <view>工作时间:<p>周末</p></view>
+    <view>工作时长:<p>每天工作5-6小时</p></view>
+  </view>
+</view>

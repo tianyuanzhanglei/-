@@ -1,0 +1,46 @@
+.box{
+  margin:80rpx 50rpx;
+  position: relative;
+  font-size: 35rpx;
+}
+.post{
+  position: absolute;
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  font-size: 40rpx;
+}
+.top{
+  height: 100rpx;
+  line-height: 120rpx;
+}
+.bottom{
+  height: 100rpx;
+}
+.post_details{
+  padding-left: 30rpx;
+  left: 200rpx;
+  position: relative; 
+  width: 450rpx;
+  height: 200rpx;
+  /* background: blue */
+  font-weight: bold;
+}
+p{
+  color: #333;
+  font-weight: normal;
+}
+.blue{
+  background: #29A4FF;
+}
+.green{
+  background: #259B24
+}
+.orange{
+  background: #FF9800
+}
+.yellow{
+  background: #D3BB19
+}

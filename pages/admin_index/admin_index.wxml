@@ -1,0 +1,135 @@
+<view class='title'>上岗情况</view>
+<view class='box bor_right bor_bottom' bindtap='nav' data-post='校园卫生队'>
+  <view class='post {{one==post.one ? "red" : "green"}}'>
+    <view class='rank'>校园</view>
+    <view class='rank'>卫生队</view>
+  </view>
+  <view class='situation' hidden='{{one!=post.one}}'>
+    <view class='full'>已招满</view>
+    <view class='people'>共{{post.one}}人</view>
+  </view>
+  <view class='situation' hidden='{{one==post.one}}'>
+    <view class='no_full'>未招满</view>
+    <view class='no_full'>缺{{post.one-one}}人</view>
+    <view class='people'>共{{post.one}}人</view>
+  </view>
+</view>
+
+<view class='box bor_bottom' bindtap='nav' data-post='教学楼服务队'>
+  <view class='post {{two==post.two? "red" : "green"}}'>
+    <view class='rank'>教学楼</view>
+    <view class='rank'>服务队</view>
+  </view>
+  <view class='situation' hidden='{{two!=post.two}}'>
+    <view class='full'>已招满</view>
+    <view class='people'>共{{post.two}}人</view>
+  </view>
+  <view class='situation' hidden='{{two==post.two}}'>
+    <view class='no_full'>未招满</view>
+    <view class='no_full'>缺{{post.two-two}}人</view>
+    <view class='people'>共{{post.two}}人</view>
+  </view>
+</view>
+
+<view class='box bor_right' bindtap='nav' data-post='校园保洁队'>
+  <view class='post {{three==post.three? "red" : "green"}}'>
+    <view class='rank'>校园</view>
+    <view class='rank'>保洁队</view>
+  </view>
+  <view class='situation' hidden='{{three!=post.three}}'>
+    <view class='full'>已招满</view>
+    <view class='people'>共{{post.three}}人</view>
+  </view>
+  <view class='situation' hidden='{{three==post.three}}'>
+    <view class='no_full'>未招满</view>
+    <view class='no_full'>缺{{post.three-three}}人</view>
+    <view class='people'>共{{post.three}}人</view>
+  </view>
+</view>
+
+<view class='box' bindtap='nav' data-post='龙山美化队'>
+  <view class='post  {{four==post.four? "red" : "green"}}'>
+    <view class='rank'>龙山</view>
+    <view class='rank'>美化队</view>
+  </view>
+  <view class='situation' hidden='{{four!=post.four}}'>
+    <view class='full'>已招满</view>
+    <view class='people'>共{{post.four}}人</view>
+  </view>
+  <view class='situation' hidden='{{four==post.four}}'>
+    <view class='no_full'>未招满</view>
+    <view class='no_full'>缺{{post.four-four}}人</view>
+    <view class='people'>共{{post.four}}人</view>
+  </view>
+</view>
+
+<view class='title'>岗位申请</view>
+
+<label wx:for='{{stu_category}}' wx:key="true" wx:for-item="team"  wx:for-index="teamIndex">
+  <view class='postbox' bindtap='bind_show'  data-box='{{teamIndex}}'>
+      <view class='postname'>{{team.post}}</view>
+      <view class='peo_num'></view>
+  </view>
+  <label wx:for='{{stu_arrange[teamIndex]}}' wx:key="true" wx:for-index="stuIndex"  wx:if="{{team.show}}">
+  <view class='stubox' >
+    <view class='choice' >
+      <custom_icon type="choice" color="#1296DB" size="20"  wx:if="{{item.check}}"></custom_icon>
+    </view>
+    <view class='stuname' bindtap='bind_check' 
+        data-stuIndex='{{stuIndex}}' data-box='{{teamIndex}}'>{{item.stuId}}-{{item.name}}
+    </view>
+    <picker bindchange="btn_dispensing_obey" value="0" range="{{array}}" class='picker' 
+    data-box='{{teamIndex}}' data-stuIndex='{{stuIndex}}'>
+      <view class='switch'>
+        <custom_icon type="switch" color="#1296DB" size="22"></custom_icon>
+      </view>
+    </picker>
+  </view>
+  </label>
+</label>
+
+
+
+<view class='postbox' bindtap='bind_show_disobedience'>
+    <view class='postname'>不服从调剂</view>
+    <view class='peo_num'></view>
+</view>
+<label wx:for='{{disobedience_stu}}' wx:key="true" wx:for-index="stuIndex"  wx:if="{{disobedience.show}}">
+  <view class='stubox' >
+    <view class='choice' >
+      <!-- <custom_icon type="choice" color="#1296DB" size="20"  wx:if="{{item.check}}"></custom_icon> -->
+    </view>
+    <view class='stuname'>{{item.stuId}}-{{item.name}}</view>
+
+    <picker bindchange="btn_dispensing_disobedience" value="0" range="{{array}}" class='picker' data-stuIndex='{{stuIndex}}'>
+      <view class='switch' >
+        <custom_icon type="switch" color="#1296DB" size="22"></custom_icon>
+      </view>
+    </picker>
+  </view>
+</label>
+
+
+<view class='postbox' bindtap='bind_show_all'>
+    <view class='postname'>全部成员</view>
+    <view class='peo_num'>{{all_stu.length}}人</view>
+</view>
+<label wx:for='{{all_stu}}' wx:key="true" wx:for-index="stuIndex"  wx:if="{{all.show}}" >
+
+  <view class='stubox' data-stuIndex='{{stuIndex}}'>
+    <view class='choice frequency'>{{item.frequency}}</view>
+    <view class='stuname'>{{item.stuId}}-{{item.name}}</view>
+    <picker bindchange="btn_dispensing_all" value="0" range="{{array}}" 
+      class='picker' data-stuIndex='{{stuIndex}}'>
+      <view class='switch'>
+        <custom_icon type="switch" color="#1296DB" size="22"></custom_icon>
+      </view>
+    </picker>
+  </view>
+
+</label>
+
+<button class='btn_arrange' bindtap='btn_arrange'>确认</button>
+
+
+

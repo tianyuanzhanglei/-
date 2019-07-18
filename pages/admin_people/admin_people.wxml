@@ -1,0 +1,74 @@
+<view class='search_box'>
+    <input placeholder='搜索' class='search' bindinput='inputStu' value='{{searchContent}}'></input>
+    <view class='search_icon' bindtap='btn_search'>
+      <custom_icon type="search" color="#fff" size="25"></custom_icon>
+    </view>
+</view>
+
+<view class='operation'>
+  <view class='operation_list' bindtap='add_people'>
+    <view class='icon'>
+      <custom_icon type="cognizance" color="#1296DB" size="25"></custom_icon>
+    </view>
+    <view class='text'>贫困生认定</view>
+    <view class='jump'>
+      <custom_icon type="jump" color="#555" size="25"></custom_icon>
+    </view>
+  </view>
+
+  <view class='operation_list' bindtap='export_data'>
+    <view class='icon'>
+      <custom_icon type="export" color="#1296DB" size="25"></custom_icon>
+    </view>
+    <view class='text'>导出表格</view>
+    <view class='jump'>
+      <custom_icon type="jump" color="#555" size="25"></custom_icon>
+    </view>
+  </view>
+  <view class='operation_list' bindtap='monitor'>
+    <view class='icon'>
+      <custom_icon type="secondLevel" color="#1296DB" size="25"></custom_icon>
+    </view>
+    <view class='text'>二级管理员</view>
+    <view class='jump'>
+      <custom_icon type="jump" color="#555" size="25"></custom_icon>
+    </view>
+  </view>
+  <view class='operation_list' bindtap='post_plan'>
+    <view class='icon'>
+      <custom_icon type="passageway" color="#1296DB" size="25"></custom_icon>
+    </view>
+    <view class='text'>设定岗位人数</view>
+    <view class='jump'>
+      <custom_icon type="jump" color="#555" size="25"></custom_icon>
+    </view>
+  </view>
+  <view class='operation_list' bindtap='binding'>
+    <view class='icon'>
+      <custom_icon type="bind" color="#F76968" size="25"></custom_icon>
+    </view>
+    <view class='text'>微信绑定</view>
+    <view class='jump'>
+      <custom_icon type="jump" color="#555" size="25"></custom_icon>
+    </view>
+  </view>
+  
+  <view class='operation_list' bindtap='change_password'>
+    <view class='icon'>
+      <custom_icon type="change_password" color="#F76968" size="25"></custom_icon>
+    </view>
+    <view class='text'>修改密码</view>
+    <view class='jump'>
+      <custom_icon type="jump" color="#555" size="25"></custom_icon>
+    </view>
+  </view> 
+  <view class='operation_list' bindtap='exit'>
+    <view class='icon'>
+      <custom_icon type="exit" color="#F76968" size="30"></custom_icon>
+    </view>
+    <view class='text'>退出登录</view>
+    <view class='jump'>
+      <custom_icon type="jump" color="#555" size="25"></custom_icon>
+    </view>
+  </view> 
+</view>

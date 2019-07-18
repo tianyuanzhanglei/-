@@ -1,0 +1,22 @@
+<view class='logo'>
+  <image src='../../resources/images/logo.png'></image>
+</view>
+<view class='title'>勤工助手</view>
+<view class="line"></view>
+<view class='introduce'>
+  <view class='introduce_title'>绑定微信后更安全</view>
+  <view class='introduce_content'>
+    <view class='circular'></view>
+    <view class='text'>获取您的公开信息(昵称、头像)</view>
+  </view>
+  <view class='introduce_content'>
+    <view class='circular'></view>
+    <view class='text'>绑定后只能在此微信登录</view>
+  </view>
+  <view class='introduce_content'>
+    <view class='circular'></view>
+    <view class='text'>绑定微信可以获取最新消息</view>
+  </view>
+</view>
+
+<button class='btn' bindtap='btn'>绑定</button>

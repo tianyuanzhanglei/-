@@ -1,0 +1,35 @@
+<view class='login'>
+  <view class='login_stu' bindtap='login_stu'>贫困生登录</view>
+  <view class='login_admin' bindtap='login_admin'>管理员登录</view>
+</view>
+
+
+<view class='operation'>
+  <view class='operation_list' bindtap='project'>
+    <view class='icon'>
+      <custom_icon type="introduce" color="#1296DB" size="25"></custom_icon>
+    </view>
+    <view class='text'>勤工助学项目介绍</view>
+    <view class='jump'>
+      <custom_icon type="jump" color="#555" size="25"></custom_icon>
+    </view>
+  </view>
+  <view class='operation_list' bindtap='post'>
+    <view class='icon'>
+      <custom_icon type="details" color="#1296DB" size="25"></custom_icon>
+    </view>
+    <view class='text'>岗位详情</view>
+    <view class='jump'>
+      <custom_icon type="jump" color="#555" size="25"></custom_icon>
+    </view>
+  </view>
+  <view class='operation_list' bindtap='help'>
+    <view class='icon'>
+      <custom_icon type="help" color="#F76968" size="25"></custom_icon>
+    </view>
+    <view class='text'>帮助</view>
+    <view class='jump'>
+      <custom_icon type="jump" color="#555" size="25"></custom_icon>
+    </view>
+  </view>
+</view>

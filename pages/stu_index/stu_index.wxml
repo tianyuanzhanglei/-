@@ -1,0 +1,86 @@
+<view class='login'>
+  <view class='login_stu'>
+    <view class='frequency'>上岗次数</view>
+    <view class='number'>{{frequency}}</view>
+  </view>
+  <view class='login_admin' hidden='{{!plan.start}}'>
+    <view class='next'>开始报名</view>
+    <view class='month'>{{plan.date}}</view>
+  </view>
+  <view class='wait_box' hidden='{{plan.start}}'>
+    <view class='wait'>敬请期待</view>
+  </view>
+</view>
+
+
+<view class='operation'>
+  <view class='operation_list' bindtap='signUp'>
+    <view class='icon'>
+      <custom_icon type="signUp" color="#1296DB" size="25"></custom_icon>
+    </view>
+    <view class='text'>上岗报名</view>
+    <view class='jump'>
+      <custom_icon type="jump" color="#555" size="25"></custom_icon>
+    </view>
+  </view>
+  <view class='operation_list' bindtap='btn_experience'>
+    <view class='icon'>
+      <custom_icon type="experience" color="#1296DB" size="25"></custom_icon>
+    </view>
+    <view class='text'>上岗经历</view>
+    <view class='jump'>
+      <custom_icon type="jump" color="#555" size="25"></custom_icon>
+    </view>
+  </view>
+  <view class='operation_list' bindtap='btn_info'>
+    <view class='icon'>
+      <custom_icon type="my" color="#1296DB" size="25"></custom_icon>
+    </view>
+    <view class='text'>本人信息</view>
+    <view class='jump'>
+      <custom_icon type="jump" color="#555" size="25"></custom_icon>
+    </view>
+  </view>
+
+  <view class='operation_list' bindtap='notice'>
+    <view class='icon'>
+      <custom_icon type="notice" color="#1296DB" size="25"></custom_icon>
+    </view>
+    <view class='text'>通知</view>
+    <view class='jump'>
+      <custom_icon type="jump" color="#555" size="25"></custom_icon>
+    </view>
+  </view>
+  
+  <view class='operation_list'  bindtap='binding'>
+    <view class='icon'>
+      <custom_icon type="bind" color="#F76968" size="25"></custom_icon>
+    </view>
+    <view class='text'>微信绑定</view>
+    <view class='jump'>
+      <custom_icon type="jump" color="#555" size="25"></custom_icon>
+    </view>
+  </view> 
+
+  <view class='operation_list' bindtap='change_password'>
+    <view class='icon'>
+      <custom_icon type="change_password" color="#F76968" size="25"></custom_icon>
+    </view>
+    <view class='text'>修改密码</view>
+    <view class='jump'>
+      <custom_icon type="jump" color="#555" size="25"></custom_icon>
+    </view>
+  </view> 
+
+  <view class='operation_list' bindtap='exit'>
+    <view class='icon'>
+      <custom_icon type="exit" color="#F76968" size="30"></custom_icon>
+    </view>
+    <view class='text'>退出登录</view>
+    <view class='jump'>
+      <custom_icon type="jump" color="#555" size="25"></custom_icon>
+    </view>
+  </view> 
+
+       
+</view>

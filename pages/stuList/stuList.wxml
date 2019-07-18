@@ -1,0 +1,12 @@
+<view class='title'>
+  <view class='title_stuId'>学号</view>
+  <view class='title_name'>姓名</view>
+  <view class='title_grade'>贫困等级</view>
+</view>
+<label wx:for='{{stu}}' wx:key="true" wx:for-index="stuIndex">
+  <view class='content' bindtap='people' data-stuIndex='{{stuIndex}}'>
+    <view class='content_stuId'>{{item.stuId}}</view>
+    <view class='content_name'>{{item.name}}</view>
+    <view class='content_grade'>{{item.grade}}</view>
+  </view>
+</label>

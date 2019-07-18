@@ -1,0 +1,41 @@
+<view class="stu_num" bindtap='details'>{{stu.length}}</view>
+
+<view class='operation_list' bindtap='add_people'>
+  <view class='icon'>
+    <custom_icon type="cognizance" color="#1296DB" size="25"></custom_icon>
+  </view>
+  <view class='text'>贫困生认定</view>
+  <view class='jump'>
+    <custom_icon type="jump" color="#555" size="25"></custom_icon>
+  </view>
+</view>
+
+  <view class='operation_list' bindtap='binding'>
+    <view class='icon'>
+      <custom_icon type="bind" color="#F76968" size="25"></custom_icon>
+    </view>
+    <view class='text'>微信绑定</view>
+    <view class='jump'>
+      <custom_icon type="jump" color="#555" size="25"></custom_icon>
+    </view>
+  </view>
+
+  <view class='operation_list' bindtap='change_password'>
+    <view class='icon'>
+      <custom_icon type="change_password" color="#F76968" size="25"></custom_icon>
+    </view>
+    <view class='text'>修改密码</view>
+    <view class='jump'>
+      <custom_icon type="jump" color="#555" size="25"></custom_icon>
+    </view>
+  </view> 
+
+  <view class='operation_list' bindtap='exit'>
+    <view class='icon'>
+      <custom_icon type="exit" color="#F76968" size="30"></custom_icon>
+    </view>
+    <view class='text'>退出登录</view>
+    <view class='jump'>
+      <custom_icon type="jump" color="#555" size="25"></custom_icon>
+    </view>
+  </view> 

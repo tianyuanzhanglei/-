@@ -1,0 +1,10 @@
+<swiper indicator-dots="true" autoplay="true" interval="5000" 
+  duration="500" class='box'>
+  <label wx:for="{{imgUrls}}" wx:key="true">
+    <swiper-item>
+      <image src="{{item.picture}}" class="box-image" width="355" height="150" />
+    </swiper-item>
+  </label>
+</swiper>
+<view class='title'>介绍</view>
+<view class='content'>该小程序主要面向勤工助学项目，服务于贫困生和助困部工作人员。小程序用于统计贫困生上岗情况，并将信息数据化、电子化，以便于助困部工作人员了解情况，更合理地安排贫困生上岗。</view>

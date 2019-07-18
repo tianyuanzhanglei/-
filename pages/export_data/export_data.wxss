@@ -1,0 +1,42 @@
+.selsect_month{
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  width: 750rpx;
+  /* background: red; */
+}
+.title{
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  background: #eee;
+}
+.title_stuId{
+  display: inline-block;
+  width: 250rpx;
+}
+.title_name{
+  display: inline-block;
+  width: 250rpx;
+}
+.title_post{
+  display: inline-block;
+  width: 250rpx;
+}
+.content{
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+}
+.content_stuId{
+  display: inline-block;
+  width: 250rpx;
+}
+.content_name{
+  display: inline-block;
+  width: 250rpx;
+}
+.content_post{
+  display: inline-block;
+  width: 250rpx;
+}

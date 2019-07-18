@@ -1,0 +1,35 @@
+.notice{
+  border-bottom: 1rpx dashed #999;
+  padding: 20rpx 0;
+}
+.notice_img{
+  display: inline-block;
+  height: 150rpx;
+  width: 150rpx;
+  line-height: 150rpx;
+  text-align: center;
+  /* background: red; */
+}
+.notice_content{
+  position: absolute;
+  left: 150rpx;
+  display: inline-block;
+  width: 600rpx;
+  height: 150rpx;
+  font-size: 35rpx;
+}
+.notice_content_identity{
+  height: 50rpx;
+  line-height: 50rpx;
+  /* background: blue; */
+}
+.notice_content_text{
+  height: 50rpx;
+  line-height: 50rpx;
+  /* background: green; */
+}
+.notice_content_post{
+  height: 50rpx;
+  line-height: 50rpx;
+  /* background: yellow; */
+}

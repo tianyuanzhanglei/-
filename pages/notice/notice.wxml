@@ -1,0 +1,13 @@
+
+<label wx:for='{{stu}}' wx:key="true">
+  <view class='notice'>
+    <view class='notice_img'>
+      <custom_icon type="my" color="#1296DB" size="50" ></custom_icon>
+    </view>
+    <view class='notice_content'>
+      <view class='notice_content_identity'>管理员</view>
+      <view class='notice_content_text'>{{item.date}}上岗申请通过，请准时上岗</view>
+      <view class='notice_content_post'>岗位：{{item.post}}</view>
+    </view>
+  </view>
+</label>

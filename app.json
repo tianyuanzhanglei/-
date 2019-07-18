@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/stu_index/stu_index",
+    "pages/admin_index/admin_index",
+    "pages/admin_people/admin_people",
+    "pages/monitor/monitor",
+    "pages/people_info/people_info",
+    "pages/addPeople/addPeople",
+    "pages/queryPeople/queryPeople",
+    "pages/updatePeople/updatePeople",
+    "pages/experience/experience",
+    "pages/singUp/singUp",
+    "pages/setPost/setPost",
+    "pages/details/details",
+    "pages/binding_stu/binding_stu",
+    "pages/binding_admin/binding_admin",
+    "pages/export_data/export_data",
+    "pages/monitor_index/monitor_index",
+    "pages/addPeople_monitor/addPeople_monitor",
+    "pages/stuList/stuList",
+    "pages/notice/notice",
+    "pages/change_password_stu/change_password_stu",
+    "pages/change_password_admin/change_password_admin",
+    "pages/project/project",
+    "pages/post/post",
+    "pages/help/help",
+    "pages/updatePeople_monitor/updatePeople_monitor",
+    "pages/updateStu_monitor/updateStu_monitor"
+  ],
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#F76968",
+    "list": [
+      {
+        "pagePath": "pages/admin_index/admin_index",
+        "text": "主页",
+        "iconPath": "resources/images/index.png",
+        "selectedIconPath": "resources/images/index_selected.png"
+      },
+      {
+        "pagePath": "pages/admin_people/admin_people",
+        "text": "人员信息",
+        "iconPath": "resources/images/people.png",
+        "selectedIconPath": "resources/images/people_selected.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

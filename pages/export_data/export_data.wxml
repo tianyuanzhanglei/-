@@ -1,0 +1,17 @@
+
+<picker mode="date" fields="month" value="{{date}}" start="2019-01" end="2050-01" bindchange="bindDateChange">
+  <view class="selsect_month">{{date}}</view>
+</picker>
+
+<view class='title'>
+  <view class='title_stuId'>学号</view>
+  <view class='title_name'>姓名</view>
+  <view class='title_post'>岗位</view>
+</view>
+<label wx:for='{{stu}}' wx:key="true">
+  <view class='content'>
+    <view class='content_stuId'>{{item.stuId}}</view>
+    <view class='content_name'>{{item.name}}</view>
+    <view class='content_post'>{{item.post}}</view>
+  </view>
+</label>

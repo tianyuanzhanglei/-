@@ -1,0 +1,31 @@
+.stu_num{
+  margin: 100rpx 175rpx;
+  height: 400rpx;
+  width: 400rpx;
+  border-radius: 50%;
+  border: 5rpx dashed #f76968;
+  color: #f76968;
+  line-height: 400rpx;
+  text-align: center;
+  font-size: 180rpx;
+}
+
+.operation_list{
+  margin: 0 20rpx;
+  height: 120rpx;
+  line-height: 120rpx;
+  font-weight: 500;
+  font-size: 40rpx;
+  border-bottom: solid #666 1rpx;
+}
+.icon{
+  display: inline-block;
+  padding: 0 30rpx;
+}
+.text{
+  display: inline-block; 
+  width: 500rpx
+}
+.jump{
+  display: inline-block; 
+}

@@ -1,0 +1,19 @@
+.number{
+  height: 90rpx;
+  background-color: #ddd;
+  margin: 60rpx 20rpx 20rpx 20rpx;
+  padding:0 20rpx;
+  font-size: 32rpx;
+}
+.password{
+  height: 90rpx;
+  background-color: #ddd;
+  margin: 20rpx;
+  padding:0 20rpx;
+  font-size: 32rpx;
+}
+.login{
+  height: 90rpx;
+  background-color: #F76968;
+  margin: 60rpx 20rpx;
+}

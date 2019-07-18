@@ -1,0 +1,40 @@
+.frequency_box{
+  margin: 100rpx 200rpx;
+  height: 350rpx;
+  line-height: 350rpx;
+  text-align: center;
+  width: 350rpx;
+  border-radius: 50%;
+  border: 8rpx dashed #F76968;
+  font-size: 150rpx;
+  color: #F76968
+}
+.details_list{
+  height: 100rpx;
+  /* background: red; */
+}
+.details_key{
+  margin: 35rpx 50rpx;
+  display: inline-block;
+  height: 30rpx;
+  width: 30rpx;
+  background: #F76968;
+  border-radius: 50%;
+
+}
+.details_time{
+  position: absolute;
+  display: inline-block;
+  width: 300rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  /* background: blue */
+}
+.details_post{
+  position: absolute;
+  left: 400rpx;
+  display: inline-block;
+  height: 100rpx;
+  line-height: 100rpx;
+  /* background: blue */
+}
